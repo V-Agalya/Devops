@@ -4,10 +4,10 @@ import boto3
 app = Flask(__name__)
 
 # AWS S3 configuration
-S3_BUCKET_NAME = 'mohana-1'
-S3_ACCESS_KEY = 'AKIA6GBMCTWCJUVCQOGT'
-S3_SECRET_KEY = '36+MudPZmwtFCb3QovLgeIHgTteq5fz7nLcHHsem'
-S3_REGION = 'eu-north-1'
+S3_BUCKET_NAME = 'your-s3-bucket-name'
+S3_ACCESS_KEY = 'your-s3-access-key'
+S3_SECRET_KEY = 'your-s3-secret-key'
+S3_REGION = 'your-s3-region'
 
 @app.route('/')
 def index():
